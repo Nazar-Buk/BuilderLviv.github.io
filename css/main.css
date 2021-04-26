@@ -1,0 +1,1786 @@
+@font-face {
+  font-family: 'GilroyLight';
+  src: url('../fonts/GilroyLight.eot');
+  src: url('../fonts/GilroyLight.eot') format('embedded-opentype'),
+  url('../fonts/GilroyLight.woff2') format('woff2'),
+  url('../fonts/GilroyLight.woff') format('woff'),
+  url('../fonts/GilroyLight.ttf') format('truetype'),
+  url('../fonts/GilroyLight.svg#GilroyLight') format('svg');
+}
+
+@font-face {
+  font-family: 'GilroyExtraBold';
+  src: url('../fonts/GilroyExtraBold.eot');
+  src: url('../fonts/GilroyExtraBold.eot') format('embedded-opentype'),
+  url('../fonts/GilroyExtraBold.woff2') format('woff2'),
+  url('../fonts/GilroyExtraBold.woff') format('woff'),
+  url('../fonts/GilroyExtraBold.ttf') format('truetype'),
+  url('../fonts/GilroyExtraBold.svg#GilroyExtraBold') format('svg');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+
+.burger-menu{
+  display: none;
+}
+
+.special-sm-block-h2-h3{
+  display: none;
+}
+
+
+/*///////////////////HEADER//////////////////*/
+header{
+  width: 100%;
+  height: 135px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.wrapper-tel{
+  width: inherit;
+  height: 54px;
+  background: rgba(0, 0, 0, 0.31);
+}
+
+.wrapper-tel img{
+  cursor: pointer;
+}
+
+header span{
+  display: block;
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+
+.wrapper-tel span a,
+.wrapper-tel a{
+  text-decoration: none;
+  color: white;
+}
+
+.wrapp-menu span{
+  font-family: 'GilroyExtraBold', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  color: rgba(255, 153, 0, 1);
+  letter-spacing: 0.07em;
+}
+
+.navigation ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.decoration{
+  text-decoration: none;
+  display: block;
+  font-family: 'GilroyLight', serif;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid rgba(255, 153, 0, 0);
+}
+
+.onclick-menu-list{
+  color: rgba(255, 153, 0, 1);
+  border-bottom: 2px solid rgba(255, 153, 0, 1);
+}
+
+.btn-call{
+  display: flex;
+  text-decoration: none;
+  border: 2px solid #FF9900;
+  font-family: 'GilroyExtraBold', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 153, 0, 1);
+  cursor: pointer;
+}
+
+/*///////////////////HEADER END//////////////////*/
+
+/*//////////////////TOP SLIDER//////////////////*/
+.top-slider{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.top-slider-line{
+  position: relative;
+  width: 400%;
+  height: 100%;
+  left: 0;
+  transition: all ease 1s;
+
+}
+
+.top-slider-line img{
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.top-slider-line::after{ /*Очищаю float*/
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*///////////////////TOP SLIDER END//////////////////*/
+
+.wrapp-title-content{
+  position: absolute;
+  top: 18%;
+  z-index: 2;
+  width: 100%;
+  height: 82vh;
+}
+
+.title-content{
+  max-width: 760px;
+  height: 65vh;
+}
+
+.title-content h1{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.title-content span{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 139.4%;
+  color: white;
+}
+
+.btn-call-content {
+  color: white;
+  background: rgba(255, 153, 0, 1);
+  width: 20%;
+}
+
+.options{
+  position: relative;
+  width: 100%;
+  height: 17vh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(26px);
+}
+
+.options div{
+  width: 20%;
+  position: relative;
+  cursor: pointer;
+  margin-left: 8.5rem;
+}
+
+.options span{
+  position: absolute;
+  left: -5.5rem;
+  top: .2rem;
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+/*//////////////////////ABOUT US//////////////////*/
+
+.about-us{
+  width: 100%;
+  height: 90vh;
+}
+
+.about-us aside{
+  position: relative;
+}
+
+.about-us img{
+  width: 100%;
+  height: 90.5vh;
+}
+
+.ten{
+  position: absolute;
+  width: 238px;
+  height: 220px;
+  right: 0;
+  bottom: 0;
+  background: #FFB800;
+  mix-blend-mode: normal;
+}
+
+.ten span{}
+
+.ten-plus,
+.plus{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.plus{
+  top: .5rem;
+  right: 4rem;
+}
+
+.years-expirience{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.about-us article{
+  height: 89.5vh;
+}
+
+.parameters-bedroom{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 650px;
+  height: 400px;
+  background-image: url(../img/two-bedroom-plan.png);
+  background-repeat: no-repeat;
+}
+
+.wrap-content-about-us{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.wrap-content-about-us h3{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+
+.wrap-content-about-us h2{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.wrap-content-about-us p{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #7C7C7C;
+}
+
+/*//////////////////////ABOUT US END//////////////////*/
+
+/*//////////////////////BLACK//////////////////*/
+.black{
+  background: rgba(0, 0, 0, 1);
+  height: 70vh;
+}
+
+.black h3{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+
+.black h2{
+
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.wrapp-circles{
+  width: 100%;
+  height: 10vh;
+}
+
+.circle-content{
+  width: 66px;
+  height: 66px;
+  position: relative;
+}
+
+.line{}
+
+.circle{
+ position: relative;
+ width: 66px;
+ height: 66px;
+}
+
+.elips{
+  position: absolute;
+}
+
+.subtract-1,
+.subtract-2,
+.subtract-3,
+.subtract-4,
+.subtract-5,
+.subtract-6{
+  position: absolute;
+  left: 42%;
+}
+
+.subtract-2{
+  left: 47%
+}
+
+.subtract-3{
+  left: 47%;
+  top: 0;
+  height: 67.5px;
+}
+
+.subtract-4{
+  left: 4%;
+}
+
+.subtract-5{
+  left: 0;
+}
+
+.subtract-6{
+  left: 0;
+  width: 68.4px;
+}
+
+
+.circle span{
+  position: absolute;
+  top: 11%;
+  left: 34%;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.down-text{
+  width: 168px;
+  position: absolute;
+  top: 130%;
+}
+
+.margin-left{
+  margin-left: 17%;
+}
+
+/*//////////////////////BLACK END//////////////////*/
+
+
+/*////////////////////// OUR WORKS //////////////////*/
+
+.our-works{
+  height: 763px;
+}
+
+/*///////article*/
+.our-works article{
+  height: 100%;
+  background-image: url(../img/two-bedroom-plan.png);
+  background-size: 70% 65%;
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 0;
+}
+
+.our-works article p{
+  width: 504px;
+  height: 175px;
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.our-works article h4{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.our-works article span b,
+.our-works article span{
+  font-family:  'GilroyExtraBold', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 139.4%;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.our-works article span{
+  font-family: 'GilroyLight', serif;
+  font-weight: normal;
+  font-size: 20px;
+  display: block;
+}
+
+
+/*//////////////////aside*/
+
+.our-works aside{
+  height: 100%;
+  position: relative;
+}
+
+.our-works article,
+.our-works aside{
+  margin-top: 6.01%;
+}
+
+.horisontal-slider-our-works{
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.wrap-horisontal-slider{
+  position: relative;
+  left: 0;
+  width: 400%;
+  height: 90%;
+  transition: all ease 1s;
+}
+
+.wrap-horisontal-slider img{
+  width: 25%;
+  height: 100%;
+}
+
+.buttons-control{
+  width: 100%;
+  height: 10%;
+  background-color: #FFB800;;
+}
+
+.points{
+  height: 100%;
+}
+
+.point{
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.active-point,
+.active-point-report{
+  width: 9px;
+  height: 9px;
+  background: #FFFFFF;
+  box-shadow: 0 0 4px rgba(255, 153, 0, 0.43);
+  transition: all ease 1s;
+
+}
+
+.arrow-btns{
+  height: 100%;
+}
+
+.arrow-left,
+.arrow-right{
+  text-decoration: none;
+  width: 22px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.arrow-right{
+  transform: rotate(180deg);
+}
+
+.wrapp-content-our-works{
+  height: 70%;
+}
+
+.our-works h3{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+
+.our-works h2{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+/*/////SMALL PICTURES//////*/
+
+.small-pictures-box{
+  width: 20%;
+  height: 324px;
+  overflow: hidden;
+}
+
+.wrap-small-pictures{
+  width: 100%;
+  height: 430px;
+  position: relative;
+  top: -33%;
+  transition: all ease 1s;
+}
+
+.small-pictures-box img{
+  width: 90%;
+  height: 24%;
+}
+/*/////SMALL PICTURES END//////*/
+
+/*////////////////////// OUR WORKS END//////////////////*/
+
+/*/////////////REPORTS///////////////*/
+
+.reports{
+  width: 100%;
+  height: 80vh;
+  background-color: #555555;
+  background-image: url(../img/repair-wall.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.wrap-report-content{
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(26px);
+}
+
+.wrap-report-content h4{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 9.7px;
+  text-transform: uppercase;
+  color: #FF9900;
+}
+
+.wrap-report-content h2{
+  width: 450px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 139.4%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+
+}
+
+.comas{
+  position: absolute;
+  top: 40%;
+  right: 8%;
+  width: 283px;
+  height: 185px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 300px;
+  line-height: 400px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.12);
+  transform: rotate(180deg);
+}
+
+.wrap-report-slider-box{
+  width: 561px;
+  height: 198px;
+  overflow: hidden;
+
+}
+
+.wrap-report-slider-line{
+  height: 100%;
+  width: 400%;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.wrap-P-and-h6{
+  width: 25%;
+  height: 100%;
+}
+
+.wrap-P-and-h6 p{
+  width: 100%;
+  height: 100%;
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.wrap-report-content h6{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+}
+
+.wrap-report-slider{
+  height: 59%;
+  width: 561px;
+}
+
+.btns-points{
+  height: 30%;
+}
+
+.active-point-report{
+  background: #FFB800;
+}
+
+/*/////////////REPORTS END///////////////*/
+
+/*/////////////CALL US ///////////////*/
+
+.call-us{
+  width: 100%;
+  height: 50vh;
+  background-color: #FFB800;;
+  color: white;
+  font-family: 'GillroyLight', serif;
+}
+
+.call-us-content{
+  width: 50%;
+  height: 100%;
+}
+
+.call-us-content h2{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.call-us-content h6{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.005em;
+}
+
+form {
+  width: 100%;
+}
+
+.wrap-inputs{
+  width: 100%;
+}
+
+input[name="username"],
+input[name="name"],
+input[name="message"]{
+  width: 38.1%;
+  height: 2rem;
+  background-color: #FFB800;
+  border: 0 solid black;
+  border-bottom: .5px solid #FFFFFF;
+}
+
+input::placeholder{
+  color: white;
+}
+
+input[name="username"]{
+  margin-right: 6rem;
+}
+
+input[name="message"]{
+  width: 90%;
+  height: 2rem;
+}
+
+.send{
+  width: 18%;
+  background-color: white;
+  color: #FF9900;
+  border: 0;
+}
+/*/////////////CALL US END///////////////*/
+
+/*/////////////FOOTER///////////////*/
+
+footer{
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+  color: white;
+}
+
+.footer-content-wrap{
+  height: 85%;
+  padding-left: 10%;
+  padding-right: 2%;
+}
+
+.footer-content{
+  height: 100%;
+}
+
+.footer-content .nothing{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+footer h2{
+  font-family: 'GilroyExtraBold', serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 80px;
+  letter-spacing: 0.07em;
+  color: #FF9900;
+  justify-content: start;
+}
+
+footer p{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.7px;
+  color: #FFFFFF;
+  width: 308px;
+}
+
+.nothing a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.footer-bottom{
+  height: 15%;
+  width: 100%;
+  border-top: .5px solid rgba(255, 255, 255, 0.29);
+  padding-left: 13%;
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: rgba(255, 255, 255, 0.29);
+}
+
+.footer-bottom span{
+  font-family: 'GilroyLight', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.005em;
+  color: rgba(255, 255, 255, 0.29);
+}
+
+/*/////////////FOOTER END///////////////*/
+
+/*//////////////////////////////ADAPTATION///////////////////////////////////*/
+@media screen and  (max-width: 1200px){
+  .top-slider{
+    height: 60vh;
+  }
+
+  .options{
+    bottom: 0;
+    height: 23vh;
+  }
+
+  .wrapp-title-content{
+    height: 42vh;
+  }
+
+  .options span{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 129.4%;
+    letter-spacing: 0.2px;
+    top: 1.2rem;
+  }
+
+  .options img{
+    width: 90%;
+    height: 70%;
+  }
+
+  .options div{
+    margin-left: 6rem;
+  }
+
+  .about-us img,
+  .about-us article,
+  .about-us{
+    height: 40vh;
+  }
+
+  .wrap-content-about-us{
+    left: 10%;
+    top: 10%;
+    width: 80%;
+  }
+
+  .wrap-content-about-us p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .parameters-bedroom{
+    background-size: 500px 400px;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 60%;
+  }
+
+  .wrapp-circles{
+    height: 17vh;
+  }
+
+  .circle-content {
+    height: 66px;
+  }
+
+  .line img{
+    width: 90px;
+  }
+
+  .down-text{
+    width: 168px;
+    position: absolute;
+    top: 130%;
+    color: white;
+    font-size: 15px;
+    left: -47%;
+  }
+
+  .black{
+    height: 40vh;
+  }
+
+  .margin-left{
+    margin-left: 8%;
+  }
+
+  .wrapp-content-our-works{
+    height: 74.2%;
+  }
+
+  .reports{
+    height: 50vh;
+  }
+
+  .wrap-P-and-h6 p{
+    width: 77%;
+    font-size: 14px;
+  }
+
+  .wrap-report-conten{
+    width: 52%;
+  }
+
+  .comas{
+    top: 35%;
+    right: 0;
+  }
+
+  .call-us{
+    height: 30vh;
+  }
+
+  input[name="username"], input[name="name"]{
+    width: 34.7%;
+  }
+
+  .send {
+    width: 27%;
+  }
+
+  footer{
+    height: 30%;
+  }
+
+}
+
+@media screen and (max-width: 992px){
+
+  .title-content{
+    width: 600px;
+    color: white;
+  }
+
+  .title-content h1{
+    font-size: 30px;
+    margin-top: 4rem;
+  }
+
+  .wrapp-title-content {
+    height: 53vh;
+  }
+
+  .wrapp-title-content {
+    top: 7%;
+  }
+
+  .options {
+    height: 16vh;
+  }
+
+  .options span{
+    font-size: 12px;
+    top: .3rem;
+  }
+
+  .options img{
+    width: 80%;
+    height: 60%;
+  }
+
+  .options div{
+    margin-left: 6rem;
+  }
+
+  .btn-call-content{
+    width: 26%;
+  }
+
+  .ten {
+    width: 175px;
+    height: 188px;
+  }
+
+  .ten-plus, .plus {
+    font-size: 51px;
+  }
+
+  .years-expirienc{
+    font-size: 30px;
+  }
+
+  .parameters-bedroom{
+    background-size: 500px 400px;
+    right: 0;
+    bottom: 0;
+    width: 82%;
+    height: 59%;
+  }
+
+  .wrapp-circles{
+    height: 17vh;
+  }
+
+  .circle-content {
+    height: 66px;
+  }
+
+  .line img{
+    width: 30px;
+  }
+
+  .down-text{
+    width: 168px;
+    position: absolute;
+    top: 130%;
+    color: white;
+    font-size: 15px;
+    left: -47%;
+  }
+
+  .black{
+    height: 75vh;
+    padding: 100px;
+    width: 100%;
+  }
+
+  .line{
+    position: relative;
+    bottom: 5px;
+  }
+
+  section.black{
+    transform: rotate(90deg);
+  }
+
+  .wrapp-circles div.circle-content .circle,
+  .wrapp-circles div.circle-content .down-text{
+    transform: rotate(-90deg);
+  }
+
+  .wrapp-circles div.circle-content .down-text{
+    top: 200%;
+  }
+
+  .down-text{
+    width: 176px;
+    height: 90px;
+  }
+
+  .wrapp-circles {
+    height: 49vh;
+  }
+
+  section.black h3,
+  section.black h2{
+    width: 310px;
+    transform: rotate(-90deg);
+  }
+
+  section.black h2{
+    margin-left: 100px;
+  }
+
+  section.black h3{
+    top: 100px;
+  }
+
+  .our-works {
+    height: 1529px;
+  }
+
+  .our-works article{
+    margin-top: 0;
+  }
+
+  .reports {
+    height: 57vh;
+  }
+
+  .wrap-report-content {
+    width: 63%;
+  }
+
+  .comas {
+    top: 40%;
+  }
+
+  .wrap-report-slider-box {
+    width: 485px;
+    height: 266px;
+  }
+
+  .call-us {
+    height: 36vh;
+  }
+
+  .call-us-content {
+    width: 68%;
+  }
+
+  .nothing div,
+  .nothing p,
+  .nothing a{
+    width: 100%;
+  }
+
+  .footer-content-wrap {
+    padding-left: 4%
+  }
+
+  #special-footer-menu{
+    flex-direction: row;
+  }
+
+  #special-footer-menu p{
+    width: 33.3%;
+  }
+
+  #special-footer-address{
+    flex-direction: row;
+  }
+
+  #special-footer-address p{
+    width: 50%;
+  }
+
+  #special-footer-socials{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #special-footer-socials a{
+    width: 10%;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 750px){
+
+  .btn-call{
+    margin-top: 0;
+  }
+
+  .top-slider {
+    height: 100vh;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .wrapp-menu{
+    position: relative;
+    top: 1%;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapp-title-content {
+    top: 19%;
+    height: 93vh;
+  }
+
+  .title-content h1 {
+    margin-top: 2rem;
+    font-size: 20px;
+  }
+
+  .title-content span{
+    font-size: 14px;
+  }
+
+  .btn-call{
+    padding: 2px;
+  }
+
+  .btn-call-content{
+    margin-top: 3rem;
+    padding: 8px;
+  }
+
+  .black {
+    height: 230vh;
+    padding: 164px;
+    width: 70%;
+    margin-bottom: -32%;
+  }
+
+  .wrapp-circles {
+    height: 51vh;
+    width: 129%;
+  }
+
+  .circle span {
+    top: 11%;
+    left: 36%;
+    font-size: 27px;
+  }
+
+  .circle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .circle .elips,
+  .subtract-4,
+  .subtract-5,
+  .subtract-6{
+    width: 50px;
+    height: 50px;
+  }
+
+  .subtract-3{
+    width: 25px;
+    height: 49px;
+    top: 1%;
+    left: 50%;
+  }
+
+  .subtract-2{
+    width: 29px;
+    height: 40px;
+    top: -1%;
+    left: 42%;
+  }
+
+  .subtract-1{
+    width: 29px;
+    height: 20px;
+    top: 0;
+    left: 42%;
+  }
+
+  .line {
+    position: relative;
+    bottom: 12px;
+  }
+
+  .line img {
+    width: 20px;
+  }
+
+  .margin-right-md{
+    position: relative;
+    right: 135%;
+    bottom: 14%;
+  }
+
+  section.black h3 {
+    top: -13px;
+  }
+
+  .reports {
+    height: 100vh;
+  }
+
+  .wrap-report-slider{
+    margin-top: -11%;
+    height: 81%;
+  }
+
+  .wrap-report-content h2{
+    font-size: 30px;
+  }
+
+  .call-us {
+    height: 100vh;
+  }
+
+  .about-us img{
+    height: 100vh;
+  }
+
+  .ten{
+    top: 119%;
+  }
+
+  .special-md-btn-call-content{
+    margin-top: 4rem;
+    padding: 8px 0 8px 18px;
+  }
+
+
+  /*//////////////////!*BURGER*!//////////////*/
+  .burger-menu-nav li{
+    list-style: none;
+  }
+
+  .burger-menu{
+    display: block;
+  }
+
+  .burger-menu-button{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    z-index: 30;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+
+  .burger-menu-button:hover .burger-menu-lines{
+    filter: brightness(.7);
+  }
+
+
+  .burger-menu-lines,
+  .burger-menu-lines::after,
+  .burger-menu-lines::before{
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .burger-menu-lines{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .burger-menu-lines::before{
+    content: '';
+    top: -6px;
+  }
+
+  .burger-menu-lines::after{
+    content: '';
+    top: 6px;
+  }
+
+
+  /*ACTIVE BURGER*/
+  .burger-menu-active .burger-menu-button,
+  .burger-menu-active .burger-menu-lines{
+    background-color: transparent;
+  }
+
+  .burger-menu-active .burger-menu-lines::before,
+  .burger-menu-active .burger-menu-lines::after{
+    top: 0;
+  }
+
+  .burger-menu-active .burger-menu-lines::before{
+    transform: rotate(45deg);
+  }
+
+  .burger-menu-active .burger-menu-lines::after{
+    transform: rotate(-45deg);
+  }
+
+  .burger-menu-nav{
+    padding-top: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #2a2a2a;
+    overflow-y: auto;
+    left: -100%;
+    transition: all ease .5s;
+    border-right: 1px solid rgba(255, 153, 0, 1);
+  }
+
+  .burger-menu-active .burger-menu-nav{
+    left: 0;
+  }
+
+  .burger-menu-active .burger-menu-button{
+    transition: all ease 1s;
+  }
+
+  /*/////////////////////!*burger end*!//////////////////////*/
+
+  input[name="username"], input[name="name"] {
+    width: 34%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 670px){
+
+  .wrapp-circles div.circle-content .down-text {
+    top: 126%;
+  }
+
+  .margin-right-md{
+    bottom: 25%;
+  }
+
+  section.black h3 {
+    top: -10%;
+  }
+
+  .wrap-report-content {
+    width: 71%;
+  }
+
+  .wrap-report-content h6{
+    margin-top: 0;
+   }
+
+  .special-md-btn-call-content {
+    margin-top: 3rem;
+    padding: 12px;
+  }
+
+
+}
+
+@media screen and (max-width: 555px){
+  .black h3,
+  .black h2{
+    background-color: red;
+    width: 55px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+
+    height: 700px;
+    display: none;
+  }
+
+  .title-content {
+    width: 414px;
+  }
+
+  .our-works article p {
+    width: 351px;
+    height: 180px;
+    font-family: 'GilroyLight', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+    color: #000000;
+  }
+
+  .m-5, .my-5, .mb-5 {
+    margin-bottom: 3rem;
+  }
+
+  .wrap-report-slider{
+    /*background-color: red;*/
+    height: 59%;
+    width: 361px;
+  }
+
+  .wrap-report-slider-box {
+    width: 405px;
+    height: 266px;
+  }
+
+  .wrap-report-content h2 {
+    width: 371px;
+  }
+
+  /*/////////////////////////////////////////////////////////////////////*/
+  .wrapp-circles {
+    height: 51vh;
+    width: 129%;
+  }
+
+  .circle span {
+    top: 11%;
+    left: 36%;
+    font-size: 27px;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+  }
+
+  .circle .elips,
+  .subtract-4,
+  .subtract-5,
+  .subtract-6{
+    width: 32px;
+    height: 32px;
+  }
+
+  .subtract-3{
+    width: 17px;
+    height: 32px;
+
+  }
+
+  .subtract-2{
+    width: 19px;
+    height: 26px;
+
+  }
+
+  .subtract-1{
+    width: 19px;
+    height: 15px;
+
+  }
+
+  .line {
+    position: relative;
+    bottom: 21px;
+  }
+
+  .line img {
+    width: 20px;
+  }
+
+  .margin-right-md{
+    position: relative;
+    right: 135%;
+    bottom: 4%;
+  }
+
+  .black {
+    padding-bottom: 474px;
+    padding-top: 507px;
+    height: 187vh;
+    width: 118%;
+    position: relative;
+  }
+
+  .down-text {
+    width: 144px;
+    height: 105px;
+    font-size: 12px;
+  }
+
+  .circle span {
+    top: 8%;
+    left: 32%;
+    font-size: 21px;
+  }
+
+  .wrapper-tel span{
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .wrapper-tel span:first-child{
+    display: none;
+  }
+
+  .top-slider {
+    height: 48vh;
+  }
+
+  .title-content span {
+    display: none;
+  }
+
+  .btn-call-content {
+    margin: 0 auto;
+    padding: 11px;
+    width: 167px;
+    border-radius: 20px;
+  }
+
+  .title-content h1 {
+    margin-top: -1rem;
+    font-size: 20px;
+    margin-left: 3rem;
+  }
+
+  .options{
+    height: 11vh;
+  }
+
+  .wrapp-title-content {
+    height: 29vh;
+  }
+
+  .options span {
+    font-size: 9px;
+    top: 0;
+    left: 0.5rem
+  }
+
+  .options div {
+    margin-left: 3px;
+  }
+
+  .options img {
+    width: 49%;
+  }
+
+  /*/////////////////*/
+  .about-us img {
+    height: 40vh;
+  }
+
+  .about-us{
+    flex-direction: column;
+  }
+
+  .about-us article,
+  .about-us aside{
+    width: 100%;
+  }
+
+  .ten {
+    top: 36%;
+  }
+
+  .our-works {
+    height: 1090px;
+  }
+
+  .wrap-report-content h2 {
+    width: 283px;
+    font-size: 28px;
+  }
+
+  .wrap-P-and-h6 p {
+    width: 59%;
+    font-size: 12px;
+  }
+
+  .wrap-report-slider {
+    height: 68%;
+  }
+
+  .reports {
+    height: 77vh;
+  }
+
+  .call-us {
+    height: 62vh;
+  }
+
+  .call-us-content {
+    width: 100%;
+  }
+
+  .wrap-inputs div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[name="username"], input[name="name"] {
+    width: 90%;
+  }
+
+  .special-md-btn-call-content{
+    margin-top: 3rem;
+    padding: 12px;
+    width: 111px;
+    margin-left: 28%;
+  }
+
+  .special-p{
+    font-size: 13px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 380px){
+  .burger-menu-button {
+    top: 1%;
+  }
+
+  .title-content {
+    width: 309px;
+  }
+
+  .options span {
+    font-size: 7px;
+  }
+
+  .ten {
+    top: 42%;
+  }
+
+  .call-us-content h6 {
+    font-size: 16px;
+  }
+
+
+
+}
+
+/*//////////////////////////////ADAPTATION END///////////////////////////////////*/
+
+
+
+
+

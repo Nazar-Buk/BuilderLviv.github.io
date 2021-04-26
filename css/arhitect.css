@@ -1,0 +1,2676 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box
+}
+
+
+/*body{*/
+/*    background: red*/
+/*}*/
+
+
+.h-100{
+  height: 100%;
+}
+
+
+
+/*Fonts-Weights*/
+
+.font-weight-100{
+    font-weight: 100
+}
+
+.font-weight-200{
+    font-weight: 200
+}
+
+.font-weight-300{
+    font-weight: 300
+}
+
+.font-weight-400{
+    font-weight: 400
+}
+
+.font-weight-500{
+    font-weight: 500
+}
+
+.font-weight-600{
+    font-weight: 600
+}
+
+.font-weight-700{
+    font-weight: 700
+}
+
+.font-weight-800{
+    font-weight: 800
+}
+
+.font-weight-900{
+    font-weight: 900
+}
+
+/*#Fonts-Weights*/
+
+
+/*Common*/
+
+.f-l{
+  float: left;
+}
+
+.shadow{
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,.8);
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,.8);
+    box-shadow: 0 10px 20px rgba(0,0,0,.8);
+}
+
+
+
+.burger{
+    width: 50px;
+    height: 35px
+}
+
+
+.visibility-hidden{
+    visibility: hidden
+}
+
+/*#Common*/
+
+
+
+/*Position*/
+.position-fixed{
+    position: fixed
+}
+
+.position-relative{
+    position: relative
+}
+
+.position-absolute{
+    position: absolute
+}
+
+.fixed-center{
+    top:50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+.fixed-top{
+    top: 0;
+    left: 0
+}
+
+.z-top{
+    z-index: 9999;
+}
+
+
+/*#Position*
+
+/*Text*/
+.text-align-center{
+    text-align: center
+}
+
+.text-decoration-none{
+    text-decoration: none
+}
+/*#Text*/
+
+
+
+/*List*/
+.list-style-none{
+    list-style: none
+}
+
+/*#List*/
+
+
+/*Displays*/
+.d-inline-block{
+    display: inline-block
+}
+
+.d-inline{
+    display: inline
+}
+
+.d-block{
+    display: block
+}
+
+.d-none{
+    display: none
+}
+/*#Displays*/
+
+
+
+
+
+/* Flexbox */
+
+.d-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center
+}
+
+.justify-content-space-between{
+    justify-content: space-between
+}
+
+.justify-content-space-around{
+  justify-content: space-around;
+}
+
+.justify-content-flex-start{
+    justify-content: flex-start
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+.flex-wrap-wrap{
+    flex-wrap: wrap
+}
+
+.flex-wrap-wrap-revers{
+    flex-wrap: wrap-reverse
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.flex-direction-row{
+  flex-direction: row;
+}
+
+.align-self-flex-start{
+  align-self: flex-start;
+}
+
+.align-self-flex-end{
+  align-self: flex-end;
+}
+
+.align-self-center{
+  align-self: center;
+}
+/* #Flexbox */
+
+
+
+/* Paddings */
+
+.p-1,
+.py-1,
+.pt-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+}
+
+.p-1,
+.px-1,
+.pr-1{
+    padding-right: 0.25rem; /*   пікселів*/
+}
+
+.p-1,
+.py-1,
+.pb-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+}
+
+.p-1,
+.px-1,
+.pl-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+}
+
+
+
+.p-2,
+.py-2,
+.pt-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+}
+
+.p-2,
+.px-2,
+.pr-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+}
+
+.p-2,
+.py-2,
+.pb-2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+}
+
+.p-2,
+.px-2,
+.pl-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+}
+
+
+
+.p-3,
+.py-3,
+.pt-3{
+    padding-top: 1rem; /*  16 пікселів*/
+}
+
+.p-3,
+.px-3,
+.pr-3{
+    padding-right: 1rem; /* 16 пікселів*/
+}
+
+.p-3,
+.py-3,
+.pb-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+}
+
+.p-3,
+.px-3,
+.pl-3{
+    padding-left: 1rem; /*  16 пікселів*/
+}
+
+
+
+
+.p-4,
+.py-4,
+.pt-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+}
+
+.p-4,
+.px-4,
+.pr-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+}
+
+.p-4,
+.py-4,
+.pb-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+}
+
+.p-4,
+.px-4,
+.pl-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+}
+
+
+
+
+.p-5,
+.py-5,
+.pt-5{
+    padding-top: 3rem; /*  48 пікселів*/
+}
+
+.p-5,
+.px-5,
+.pr-5{
+    padding-right: 3rem; /* 48 пікселів*/
+}
+
+.p-5,
+.py-5,
+.pb-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+}
+
+.p-5,
+.px-5,
+.pl-5{
+    padding-left: 3rem; /*  48 пікселів*/
+}
+
+/* #Paddings */
+
+
+.overflow-hidden{
+    overflow: hidden
+}
+
+
+/*.circle{*/
+/*    border-radius: 100%;*/
+/*}*/
+
+
+
+
+
+/* Margins */
+
+.m-0{
+  margin: 0 auto;
+}
+
+.ml-0{
+  margin-left: 0;
+}
+
+.mr-0{
+  margin-right: 0;
+}
+
+.mt-0{
+  margin-top: 0;
+}
+
+.mb-0{
+  margin-bottom: 0;
+}
+
+.m-1,
+.my-1,
+.mt-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+}
+
+.m-1,
+.mx-1,
+.mr-1{
+    margin-right: 0.25rem; /*   пікселів*/
+}
+
+.m-1,
+.my-1,
+.mb-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+}
+
+.m-1,
+.mx-1,
+.ml-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+}
+
+
+
+.m-2,
+.my-2,
+.mt-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+}
+
+.m-2,
+.mx-2,
+.mr-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+}
+
+.m-2,
+.my-2,
+.mb-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+}
+
+.m-2,
+.mx-2,
+.ml-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+}
+
+
+
+.m-3,
+.my-3,
+.mt-3{
+    margin-top: 1rem; /*  16 пікселів*/
+}
+
+.m-3,
+.mx-3,
+.mr-3{
+    margin-right: 1rem; /* 16 пікселів*/
+}
+
+.m-3,
+.my-3,
+.mb-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+}
+
+.m-3,
+.mx-3,
+.ml-3{
+    margin-left: 1rem; /*  16 пікселів*/
+}
+
+
+
+
+.m-4,
+.my-4,
+.mt-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+}
+
+.m-4,
+.mx-4,
+.mr-4{
+   margin-right: 1.5rem; /* 24 пікселів*/
+}
+
+.m-4,
+.my-4,
+.mb-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+}
+
+.m-4,
+.mx-4,
+.ml-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+}
+
+
+
+
+.m-5,
+.my-5,
+.mt-5{
+    margin-top: 3rem; /*  48 пікселів*/
+}
+
+.m-5,
+.mx-5,
+.mr-5{
+   margin-right: 3rem; /* 48 пікселів*/
+}
+
+.m-5,
+.my-5,
+.mb-5{
+   margin-bottom: 3rem; /*  48 пікселів*/
+}
+
+.m-5,
+.mx-5,
+.ml-5{
+    margin-left: 3rem; /*  48 пікселів*/
+}
+
+/* #Margins */
+
+
+/* Grid */
+
+/* Colons s*/
+
+.col-1{
+    width: 8.33333%;
+}
+
+.col-2{
+    width: 16.666667%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33333%;
+}
+
+.col-5{
+    width: 41.66667%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33333%;
+}
+
+.col-8{
+    width: 66.66667%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33333%;
+}
+
+.col-11{
+     width: 91.66667%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+/* #Colons */
+
+@media screen and (max-width: 1200px){
+
+
+    /*.main_nav{*/
+    /*    max-height: 0;*/
+    /*    overflow: hidden;*/
+    /*    transition: max-height 1s;*/
+    /*}*/
+
+
+    /*.main_nav.active{*/
+    /*    max-height: 100vh;*/
+    /*}*/
+
+
+    .d-xl-inline-block{
+    display: inline-block
+}
+
+.d-xl-inline{
+    display: inline
+}
+
+.d-xl-block{
+    display: block
+}
+
+    .d-xl-none{
+        display: none
+    }
+
+    .d-xl-flex{
+      display: flex;
+    }
+
+
+    .flex-xl-direction-column{
+    flex-direction: column;
+}
+
+
+  /* Margins xl*/
+
+
+
+  .m-xl-0{
+    margin: 0;
+  }
+
+  .ml-xl-0{
+    margin-left: 0;
+  }
+
+  .mr-xl-0{
+    margin-right: 0;
+  }
+
+  .mt-xl-0{
+    margin-top: 0;
+  }
+
+  .mb-xl-0{
+    margin-bottom: 0;
+  }
+
+  .m-xl-1,
+  .my-xl-1,
+  .mt-xl-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-xl-1,
+  .mx-xl-1,
+  .mr-xl-1{
+    margin-right: 0.25rem; /*   пікселів*/
+  }
+
+  .m-xl-1,
+  .my-xl-1,
+  .mb-xl-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-xl-1,
+  .mx-xl-1,
+  .ml-xl-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .m-xl-2,
+  .my-xl-2,
+  .mt-xl-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-xl-2,
+  .mx-xl-2,
+  .mr-xl-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .m-xl-2,
+  .my-xl-2,
+  .mb-xl-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-xl-2,
+  .mx-xl-2,
+  .ml-xl-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .m-xl-3,
+  .my-xl-3,
+  .mt-xl-3{
+    margin-top: 1rem; /*  16 пікселів*/
+  }
+
+  .m-xl-3,
+  .mx-xl-3,
+  .mr-xl-3{
+    margin-right: 1rem; /* 16 пікселів*/
+  }
+
+  .m-xl-3,
+  .my-xl-3,
+  .mb-xl-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+  }
+
+  .m-xl-3,
+  .mx-xl-3,
+  .ml-xl-3{
+    margin-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .m-xl-4,
+  .my-xl-4,
+  .mt-xl-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-xl-4,
+  .mx-xl-4,
+  .mr-xl-4{
+    margin-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .m-xl-4,
+  .my-xl-4,
+  .mb-xl-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-xl-4,
+  .mx-xl-4,
+  .ml-xl-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .m-xl-5,
+  .my-xl-5,
+  .mt-xl-5{
+    margin-top: 3rem; /*  48 пікселів*/
+  }
+
+  .m-xl-5,
+  .mx-xl-5,
+  .mr-xl-5{
+    margin-right: 3rem; /* 48 пікселів*/
+  }
+
+  .m-xl-5,
+  .my-xl-5,
+  .mb-xl-5{
+    margin-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .m-xl-5,
+  .mx-xl-5,
+  .ml-xl-5{
+    margin-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Margins xl*/
+
+  /* Paddings xl*/
+
+  .p-xl-1,
+  .py-xl-1,
+  .pt-xl-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-xl-1,
+  .px-xl-1,
+  .pr-xl-1{
+    padding-right: 0.25rem; /*   пікселів*/
+  }
+
+  .p-xl-1,
+  .py-xl-1,
+  .pb-xl-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-xl-1,
+  .px-xl-1,
+  .pl-xl-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .p-xl-2,
+  .py-xl-2,
+  .pt-xl-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-xl-2,
+  .px-xl-2,
+  .pr-xl-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .p-xl-2,
+  .py-xl-2,
+  .pb-xl-2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-xl-2,
+  .px-xl-2,
+  .pl-xl-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .p-xl-3,
+  .py-xl-3,
+  .pt-xl-3{
+    padding-top: 1rem; /*  16 пікселів*/
+  }
+
+  .p-xl-3,
+  .px-xl-3,
+  .pr-xl-3{
+    padding-right: 1rem; /* 16 пікселів*/
+  }
+
+  .p-xl-3,
+  .py-xl-3,
+  .pb-xl-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+  }
+
+  .p-xl-3,
+  .px-xl-3,
+  .pl-xl-3{
+    padding-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .p-xl-4,
+  .py-xl-4,
+  .pt-xl-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-xl-4,
+  .px-xl-4,
+  .pr-xl-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .p-xl-4,
+  .py-xl-4,
+  .pb-xl-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-xl-4,
+  .px-xl-4,
+  .pl-xl-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .p-xl-5,
+  .py-xl-5,
+  .pt-xl-5{
+    padding-top: 3rem; /*  48 пікселів*/
+  }
+
+  .p-xl-5,
+  .px-xl-5,
+  .pr-xl-5{
+    padding-right: 3rem; /* 48 пікселів*/
+  }
+
+  .p-xl-5,
+  .py-xl-5,
+  .pb-xl-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .p-xl-5,
+  .px-xl-5,
+  .pl-xl-5{
+    padding-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Paddings xl*/
+
+/*Colons xl*/
+.col-xl-1{
+    width: 8.33333%;
+}
+
+.col-xl-2{
+    width: 16.666667%;
+}
+
+.col-xl-3{
+    width: 25%;
+}
+
+.col-xl-4{
+    width: 33.33333%;
+}
+
+.col-xl-5{
+    width: 41.66667%;
+}
+
+.col-xl-6{
+    width: 50%;
+}
+
+.col-xl-7{
+    width: 58.33333%;
+}
+
+.col-xl-8{
+    width: 66.66667%;
+}
+
+.col-xl-9{
+    width: 75%;
+}
+
+.col-xl-10{
+    width: 83.33333%;
+}
+
+.col-xl-11{
+     width: 91.66667%;
+}
+
+.col-xl-12{
+    width: 100%;
+}
+
+/*#Colons xl*/
+}
+
+@media screen and (max-width: 992px){
+
+    .d-lg-inline-block{
+    display: inline-block
+}
+
+.d-lg-inline{
+    display: inline
+}
+
+.d-lg-block{
+    display: block
+}
+
+/*flex lg*/
+
+
+
+  .d-lg-flex{
+    display: flex;
+  }
+
+  .justify-content-lg-start{
+    justify-content: start;
+  }
+
+  .align-items-lg-start{
+    align-items: start;
+  }
+
+  .flex-wrap-lg-wrap{
+    flex-wrap: wrap;
+  }
+
+  .flex-direction-lg-column{
+    flex-direction: column;
+  }
+
+  .flex-direction-lg-row{
+    flex-direction: row;
+  }
+
+/*#flex lg*/
+
+  /* Margins lg*/
+  .m-lg-0{
+    margin: 0;
+  }
+
+  .ml-lg-0{
+    margin-left: 0;
+  }
+
+  .mr-lg-0{
+    margin-right: 0;
+  }
+
+  .mt-lg-0{
+    margin-top: 0;
+  }
+
+  .mb-lg-0{
+    margin-bottom: 0;
+  }
+
+  .m-lg-1,
+  .my-lg-1,
+  .mt-lg-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-lg-1,
+  .mx-lg-1,
+  .mr-lg-1{
+    margin-right: 0.25rem; /*   пікселів*/
+  }
+
+  .m-lg-1,
+  .my-lg-1,
+  .mb-lg-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-lg-1,
+  .mx-lg-1,
+  .ml-lg-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .m-lg-2,
+  .my-lg-2,
+  .mt-lg-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-lg-2,
+  .mx-lg-2,
+  .mr-lg-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .m-lg-2,
+  .my-lg-2,
+  .mb-lg-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-lg-2,
+  .mx-lg-2,
+  .ml-lg-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .m-lg-3,
+  .my-lg-3,
+  .mt-lg-3{
+    margin-top: 1rem; /*  16 пікселів*/
+  }
+
+  .m-lg-3,
+  .mx-lg-3,
+  .mr-lg-3{
+    margin-right: 1rem; /* 16 пікселів*/
+  }
+
+  .m-lg-3,
+  .my-lg-3,
+  .mb-lg-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+  }
+
+  .m-lg-3,
+  .mx-lg-3,
+  .ml-lg-3{
+    margin-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .m-lg-4,
+  .my-lg-4,
+  .mt-lg-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-lg-4,
+  .mx-lg-4,
+  .mr-lg-4{
+    margin-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .m-lg-4,
+  .my-lg-4,
+  .mb-lg-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-lg-4,
+  .mx-lg-4,
+  .ml-lg-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .m-lg-5,
+  .my-lg-5,
+  .mt-lg-5{
+    margin-top: 3rem; /*  48 пікселів*/
+  }
+
+  .m-lg-5,
+  .mx-lg-5,
+  .mr-lg-5{
+    margin-right: 3rem; /* 48 пікселів*/
+  }
+
+  .m-lg-5,
+  .my-lg-5,
+  .mb-lg-5{
+    margin-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .m-lg-5,
+  .mx-lg-5,
+  .ml-lg-5{
+    margin-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Margins lg*/
+
+  /* Paddings lg*/
+
+  .p-lg-1,
+  .py-lg-1,
+  .pt-lg-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-lg-1,
+  .px-lg-1,
+  .pr-lg-1{
+    padding-right: 0.25rem; /*   пікселів*/
+  }
+
+  .p-lg-1,
+  .py-lg-1,
+  .pb-lg-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-lg-1,
+  .px-lg-1,
+  .pl-lg-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .p-lg-2,
+  .py-lg-2,
+  .pt-lg-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-lg-2,
+  .px-lg-2,
+  .pr-lg-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .p-lg-2,
+  .py-lg-2,
+  .pb-lg-2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-lg-2,
+  .px-lg-2,
+  .pl-lg-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .p-lg-3,
+  .py-lg-3,
+  .pt-lg-3{
+    padding-top: 1rem; /*  16 пікселів*/
+  }
+
+  .p-lg-3,
+  .px-lg-3,
+  .pr-lg-3{
+    padding-right: 1rem; /* 16 пікселів*/
+  }
+
+  .p-lg-3,
+  .py-lg-3,
+  .pb-lg-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+  }
+
+  .p-lg-3,
+  .px-lg-3,
+  .pl-lg-3{
+    padding-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .p-lg-4,
+  .py-lg-4,
+  .pt-lg-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-lg-4,
+  .px-lg-4,
+  .pr-lg-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .p-lg-4,
+  .py-lg-4,
+  .pb-lg-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-lg-4,
+  .px-lg-4,
+  .pl-lg-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .p-lg-5,
+  .py-lg-5,
+  .pt-lg-5{
+    padding-top: 3rem; /*  48 пікселів*/
+  }
+
+  .p-lg-5,
+  .px-lg-5,
+  .pr-lg-5{
+    padding-right: 3rem; /* 48 пікселів*/
+  }
+
+  .p-lg-5,
+  .py-lg-5,
+  .pb-lg-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .p-lg-5,
+  .px-lg-5,
+  .pl-lg-5{
+    padding-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Paddings lg*/
+
+
+/*Colons*/
+
+.col-lg-1{
+    width: 8.33333%;
+}
+
+.col-lg-2{
+    width: 16.666667%;
+}
+
+.col-lg-3{
+    width: 25%;
+}
+
+.col-lg-4{
+    width: 33.33333%;
+}
+
+.col-lg-5{
+    width: 41.66667%;
+}
+
+.col-lg-6{
+    width: 50%;
+}
+
+.col-lg-7{
+    width: 58.33333%;
+}
+
+.col-lg-8{
+    width: 66.66667%;
+}
+
+.col-lg-9{
+    width: 75%;
+}
+
+.col-lg-10{
+    width: 83.33333%;
+}
+
+.col-lg-11{
+     width: 91.66667%;
+}
+
+.col-lg-12{
+    width: 100%;
+}
+/*#Colons*/
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    .d-md-inline-block{
+        display: inline-block
+    }
+
+    .d-md-inline{
+        display: inline
+    }
+
+    .d-md-block{
+        display: block
+    }
+
+    .text-align-md-center{
+            text-align: center
+    }
+
+
+
+
+  /* Margins md*/
+
+  .m-md-0{
+    margin: 0;
+  }
+
+  .ml-md-0{
+    margin-left: 0;
+  }
+
+  .mr-md-0{
+    margin-right: 0;
+  }
+
+  .mt-md-0{
+    margin-top: 0;
+  }
+
+  .mb-md-0{
+    margin-bottom: 0;
+  }
+
+  .m-md-1,
+  .my-md-1,
+  .mt-md-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-md-1,
+  .mx-md-1,
+  .mr-md-1{
+    margin-right: 0.25rem; /*   пікселів*/
+  }
+
+  .m-md-1,
+  .my-md-1,
+  .mb-md-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-md-1,
+  .mx-md-1,
+  .ml-md-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .m-md-2,
+  .my-md-2,
+  .mt-md-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-md-2,
+  .mx-md-2,
+  .mr-md-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .m-md-2,
+  .my-md-2,
+  .mb-md-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-md-2,
+  .mx-md-2,
+  .ml-md-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .m-md-3,
+  .my-md-3,
+  .mt-md-3{
+    margin-top: 1rem; /*  16 пікселів*/
+  }
+
+  .m-md-3,
+  .mx-md-3,
+  .mr-md-3{
+    margin-right: 1rem; /* 16 пікселів*/
+  }
+
+  .m-md-3,
+  .my-md-3,
+  .mb-md-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+  }
+
+  .m-md-3,
+  .mx-md-3,
+  .ml-md-3{
+    margin-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .m-md-4,
+  .my-md-4,
+  .mt-md-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-md-4,
+  .mx-md-4,
+  .mr-md-4{
+    margin-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .m-md-4,
+  .my-md-4,
+  .mb-md-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-md-4,
+  .mx-md-4,
+  .ml-md-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .m-md-5,
+  .my-md-5,
+  .mt-md-5{
+    margin-top: 3rem; /*  48 пікселів*/
+  }
+
+  .m-md-5,
+  .mx-md-5,
+  .mr-md-5{
+    margin-right: 3rem; /* 48 пікселів*/
+  }
+
+  .m-md-5,
+  .my-md-5,
+  .mb-md-5{
+    margin-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .m-md-5,
+  .mx-md-5,
+  .ml-md-5{
+    margin-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Margins md*/
+
+  /* Paddings md*/
+
+  .p-md-1,
+  .py-md-1,
+  .pt-md-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-md-1,
+  .px-md-1,
+  .pr-md-1{
+    padding-right: 0.25rem; /*   пікселів*/
+  }
+
+  .p-md-1,
+  .py-md-1,
+  .pb-md-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-md-1,
+  .px-md-1,
+  .pl-md-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .p-md-2,
+  .py-md-2,
+  .pt-md-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-md-2,
+  .px-md-2,
+  .pr-md-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .p-md-2,
+  .py-md-2,
+  .pb-md-2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-md-2,
+  .px-md-2,
+  .pl-md-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .p-md-3,
+  .py-md-3,
+  .pt-md-3{
+    padding-top: 1rem; /*  16 пікселів*/
+  }
+
+  .p-md-3,
+  .px-md-3,
+  .pr-md-3{
+    padding-right: 1rem; /* 16 пікселів*/
+  }
+
+  .p-md-3,
+  .py-md-3,
+  .pb-md-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+  }
+
+  .p-md-3,
+  .px-md-3,
+  .pl-md-3{
+    padding-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .p-md-4,
+  .py-md-4,
+  .pt-md-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-md-4,
+  .px-md-4,
+  .pr-md-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .p-md-4,
+  .py-md-4,
+  .pb-md-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-md-4,
+  .px-md-4,
+  .pl-md-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .p-md-5,
+  .py-md-5,
+  .pt-md-5{
+    padding-top: 3rem; /*  48 пікселів*/
+  }
+
+  .p-md-5,
+  .px-md-5,
+  .pr-md-5{
+    padding-right: 3rem; /* 48 пікселів*/
+  }
+
+  .p-md-5,
+  .py-md-5,
+  .pb-md-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .p-md-5,
+  .px-md-5,
+  .pl-md-5{
+    padding-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Paddings md*/
+
+
+  /* Flexbox md*/
+
+  .d-md-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+
+  .justify-content-md-center{
+    justify-content: center
+  }
+
+  .justify-content-md-space-between{
+    justify-content: space-between
+  }
+
+  .justify-content-md-flex-start{
+    justify-content: flex-start
+  }
+
+  .justify-content-md-flex-end{
+    justify-content: flex-end
+  }
+
+  .align-items-md-center{
+    align-items: center;
+  }
+
+
+  .flex-wrap-md-wrap{
+    flex-wrap: wrap
+  }
+
+  .flex-wrap-md-wrap-revers{
+    flex-wrap: wrap-reverse
+  }
+
+  .flex-direction-md-column{
+    flex-direction: column;
+  }
+
+  .flex-direction-md-row{
+    flex-direction: row;
+  }
+
+  .align-self-md-flex-start{
+    align-self: flex-start;
+  }
+
+  .align-self-md-flex-end{
+    align-self: flex-end;
+  }
+
+  .align-self-md-center{
+    align-self: center;
+  }
+  /* #Flexbox md*/
+
+
+    .col-md-1{
+        width: 8.33333%;
+    }
+
+    .col-md-2{
+        width: 16.666667%;
+    }
+
+    .col-md-3{
+        width: 25%;
+    }
+
+    .col-md-4{
+        width: 33.33333%;
+    }
+
+    .col-md-5{
+        width: 41.66667%;
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-7{
+        width: 58.33333%;
+    }
+
+    .col-md-8{
+        width: 66.66667%;
+    }
+
+    .col-md-9{
+        width: 75%;
+    }
+
+    .col-md-10{
+        width: 83.33333%;
+    }
+
+    .col-md-11{
+         width: 91.66667%;
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .d-sm-inline-block{
+    display: inline-block
+    }
+
+    .d-sm-inline{
+        display: inline
+    }
+
+    .d-sm-block{
+        display: block
+    }
+
+
+
+
+  /* Flexbox sm*/
+
+  .d-sm-flex{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+  }
+
+  .justify-content-sm-center{
+    justify-content: center
+  }
+
+  .justify-content-sm-space-between{
+    justify-content: space-between
+  }
+
+  .justify-content-sm-flex-start{
+    justify-content: flex-start
+  }
+
+  .justify-content-sm-flex-end{
+    justify-content: flex-end
+  }
+
+  .align-items-sm-center{
+    align-items: center;
+  }
+
+
+  .flex-wrap-sm-wrap{
+    flex-wrap: wrap
+  }
+
+  .flex-wrap-sm-wrap-revers{
+    flex-wrap: wrap-reverse
+  }
+
+  .flex-direction-sm-column{
+    flex-direction: column;
+  }
+
+  .flex-direction-sm-row{
+    flex-direction: row;
+  }
+
+  .align-self-sm-flex-start{
+    align-self: flex-start;
+  }
+
+  .align-self-sm-flex-end{
+    align-self: flex-end;
+  }
+
+  .align-self-sm-center{
+    align-self: center;
+  }
+  /* #Flexbox sm*/
+
+
+
+
+  .text-align-sm-center{
+    text-align: center
+  }
+
+  /* Paddings sm*/
+
+  .p-sm-1,
+  .py-sm-1,
+  .pt-sm-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-sm-1,
+  .px-sm-1,
+  .pr-sm-1{
+    padding-right: 0.25rem; /*   пікселів*/
+  }
+
+  .p-sm-1,
+  .py-sm-1,
+  .pb-sm-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-sm-1,
+  .px-sm-1,
+  .pl-sm-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .p-sm-2,
+  .py-sm-2,
+  .pt-sm-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-sm-2,
+  .px-sm-2,
+  .pr-sm-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .p-sm-2,
+  .py-sm-2,
+  .pb-sm-2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-sm-2,
+  .px-sm-2,
+  .pl-sm-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .p-sm-3,
+  .py-sm-3,
+  .pt-sm-3{
+    padding-top: 1rem; /*  16 пікселів*/
+  }
+
+  .p-sm-3,
+  .px-sm-3,
+  .pr-sm-3{
+    padding-right: 1rem; /* 16 пікселів*/
+  }
+
+  .p-sm-3,
+  .py-sm-3,
+  .pb-sm-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+  }
+
+  .p-sm-3,
+  .px-sm-3,
+  .pl-sm-3{
+    padding-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .p-sm-4,
+  .py-sm-4,
+  .pt-sm-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-sm-4,
+  .px-sm-4,
+  .pr-sm-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .p-sm-4,
+  .py-sm-4,
+  .pb-sm-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-sm-4,
+  .px-sm-4,
+  .pl-sm-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .p-sm-5,
+  .py-sm-5,
+  .pt-sm-5{
+    padding-top: 3rem; /*  48 пікселів*/
+  }
+
+  .p-sm-5,
+  .px-sm-5,
+  .pr-sm-5{
+    padding-right: 3rem; /* 48 пікселів*/
+  }
+
+  .p-sm-5,
+  .py-sm-5,
+  .pb-sm-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .p-sm-5,
+  .px-sm-5,
+  .pl-sm-5{
+    padding-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Paddings sm*/
+
+
+  /* Margins */
+
+  .m-sm-0{
+    margin: 0;
+  }
+
+  .ml-sm-0{
+    margin-left: 0;
+  }
+
+  .mr-sm-0{
+    margin-right: 0;
+  }
+
+  .mt-sm-0{
+    margin-top: 0;
+  }
+
+  .mb-sm-0{
+    margin-bottom: 0;
+  }
+
+  .m-sm-1,
+  .my-sm-1,
+  .mt-sm-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-sm-1,
+  .mx-sm-1,
+  .mr-sm-1{
+    margin-right: 0.25rem; /*   пікселів*/
+  }
+
+  .m-sm-1,
+  .my-sm-1,
+  .mb-sm-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-sm-1,
+  .mx-sm-1,
+  .ml-sm-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .m-sm-2,
+  .my-sm-2,
+  .mt-sm-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-sm-2,
+  .mx-sm-2,
+  .mr-sm-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .m-sm-2,
+  .my-sm-2,
+  .mb-sm-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-sm-2,
+  .mx-sm-2,
+  .ml-sm-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .m-sm-3,
+  .my-sm-3,
+  .mt-sm-3{
+    margin-top: 1rem; /*  16 пікселів*/
+  }
+
+  .m-sm-3,
+  .mx-sm-3,
+  .mr-sm-3{
+    margin-right: 1rem; /* 16 пікселів*/
+  }
+
+  .m-sm-3,
+  .my-sm-3,
+  .mb-sm-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+  }
+
+  .m-sm-3,
+  .mx-sm-3,
+  .ml-sm-3{
+    margin-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .m-sm-4,
+  .my-sm-4,
+  .mt-sm-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-sm-4,
+  .mx-sm-4,
+  .mr-sm-4{
+    margin-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .m-sm-4,
+  .my-sm-4,
+  .mb-sm-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-sm-4,
+  .mx-sm-4,
+  .ml-sm-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .m-sm-5,
+  .my-sm-5,
+  .mt-sm-5{
+    margin-top: 3rem; /*  48 пікселів*/
+  }
+
+  .m-sm-5,
+  .mx-sm-5,
+  .mr-sm-5{
+    margin-right: 3rem; /* 48 пікселів*/
+  }
+
+  .m-sm-5,
+  .my-sm-5,
+  .mb-sm-5{
+    margin-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .m-sm-5,
+  .mx-sm-5,
+  .ml-sm-5{
+    margin-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Margins sm*/
+
+
+  .font-weight-sm-100{
+    font-weight: 100
+  }
+
+  .font-weight-sm-200{
+    font-weight: 200
+  }
+
+  .font-weight-sm-300{
+    font-weight: 300
+  }
+
+  .font-weight-sm-400{
+    font-weight: 400
+  }
+
+  .font-weight-sm-500{
+    font-weight: 500
+  }
+
+  .font-weight-sm-600{
+    font-weight: 600
+  }
+
+  .font-weight-sm-700{
+    font-weight: 700
+  }
+
+  .font-weight-sm-800{
+    font-weight: 800
+  }
+
+  .font-weight-sm-900{
+    font-weight: 900
+  }
+
+/*Colons sm*/
+    .col-sm-1{
+        width: 8.33333%;
+    }
+
+    .col-sm-2{
+        width: 16.666667%;
+    }
+
+    .col-sm-3{
+        width: 25%;
+    }
+
+    .col-sm-4{
+        width: 33.33333%;
+    }
+
+    .col-sm-5{
+        width: 41.66667%;
+    }
+
+    .col-sm-6{
+        width: 50%;
+    }
+
+    .col-sm-7{
+        width: 58.33333%;
+    }
+
+    .col-sm-8{
+        width: 66.66667%;
+    }
+
+    .col-sm-9{
+        width: 75%;
+    }
+
+    .col-sm-10{
+        width: 83.33333%;
+    }
+
+    .col-sm-11{
+         width: 91.66667%;
+    }
+
+    .col-sm-12{
+        width: 100%;
+    }
+
+    /*#Colons sm*/
+}
+
+@media screen and (max-width: 320px){
+
+  .d-xs-inline-block{
+    display: inline-block
+  }
+
+  .d-xs-inline{
+    display: inline
+  }
+
+  .d-xs-block{
+    display: block
+  }
+
+
+
+  .justify-content-xs-center{
+    justify-content: center
+  }
+
+  .flex-direction-xs-column{
+    flex-direction: column;
+  }
+
+  .align-items-xs-normal{
+    align-items: normal;
+  }
+
+  .flex-wrap-xs-wrap{
+    flex-wrap: wrap;
+  }
+
+
+
+
+  .text-align-xs-center{
+    text-align: center
+  }
+
+  /* Paddings xs*/
+
+  .p-xs-1,
+  .py-xs-1,
+  .pt-xs-1{
+    padding-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-xs-1,
+  .px-xs-1,
+  .pr-xs-1{
+    padding-right: 0.25rem; /*   пікселів*/
+  }
+
+  .p-xs-1,
+  .py-xs-1,
+  .pb-xs-1{
+    padding-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .p-xs-1,
+  .px-xs-1,
+  .pl-xs-1{
+    padding-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .p-xs-2,
+  .py-xs-2,
+  .pt-xs-2{
+    padding-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-xs-2,
+  .px-xs-2,
+  .pr-xs-2{
+    padding-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .p-xs-2,
+  .py-xs-2,
+  .pb-sxm2{
+    padding-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .p-xs-2,
+  .px-xs-2,
+  .pl-xs-2{
+    padding-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .p-xs-3,
+  .py-xs-3,
+  .pt-xs-3{
+    padding-top: 1rem; /*  16 пікселів*/
+  }
+
+  .p-xs-3,
+  .px-xs-3,
+  .pr-xs-3{
+    padding-right: 1rem; /* 16 пікселів*/
+  }
+
+  .p-xs-3,
+  .py-xs-3,
+  .pb-xs-3{
+    padding-bottom: 1rem; /*  16 пікселів*/
+  }
+
+  .p-xs-3,
+  .px-xs-3,
+  .pl-xs-3{
+    padding-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .p-xs-4,
+  .py-xs-4,
+  .pt-xs-4{
+    padding-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-xs-4,
+  .px-xs-4,
+  .pr-xs-4{
+    padding-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .p-xs-4,
+  .py-xs-4,
+  .pb-xs-4{
+    padding-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .p-xs-4,
+  .px-xs-4,
+  .pl-xs-4{
+    padding-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .p-xs-5,
+  .py-xs-5,
+  .pt-xs-5{
+    padding-top: 3rem; /*  48 пікселів*/
+  }
+
+  .p-xs-5,
+  .px-xs-5,
+  .pr-xs-5{
+    padding-right: 3rem; /* 48 пікселів*/
+  }
+
+  .p-xs-5,
+  .py-xs-5,
+  .pb-xs-5{
+    padding-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .p-xs-5,
+  .px-xs-5,
+  .pl-xs-5{
+    padding-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Paddings xs*/
+
+
+  /* Margins xs*/
+
+  .m-xs-0{
+    margin: 0;
+  }
+
+  .ml-xs-0{
+    margin-left: 0;
+  }
+
+  .mr-xs-0{
+    margin-right: 0;
+  }
+
+  .mt-xs-0{
+    margin-top: 0;
+  }
+
+  .mb-xs-0{
+    margin-bottom: 0;
+  }
+
+  .m-xs-1,
+  .my-xs-1,
+  .mt-xs-1{
+    margin-top: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-xs-1,
+  .mx-xs-1,
+  .mr-xs-1{
+    margin-right: 0.25rem; /*   пікселів*/
+  }
+
+  .m-xs-1,
+  .my-xs-1,
+  .mb-xs-1{
+    margin-bottom: 0.25rem; /*  4 пікселів*/
+  }
+
+  .m-xs-1,
+  .mx-xs-1,
+  .ml-xs-1{
+    margin-left: 0.25rem; /*  4 пікселів*/
+  }
+
+
+
+  .m-xs-2,
+  .my-xs-2,
+  .mt-xs-2{
+    margin-top: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-xs-2,
+  .mx-xs-2,
+  .mr-xs-2{
+    margin-right: 0.5rem; /* 8 пікселів*/
+  }
+
+  .m-xs-2,
+  .my-xs-2,
+  .mb-xs-2{
+    margin-bottom: 0.5rem; /*  8 пікселів*/
+  }
+
+  .m-xs-2,
+  .mx-xs-2,
+  .ml-xs-2{
+    margin-left: 0.5rem; /*  8 пікселів*/
+  }
+
+
+
+  .m-xs-3,
+  .my-xs-3,
+  .mt-xs-3{
+    margin-top: 1rem; /*  16 пікселів*/
+  }
+
+  .m-xs-3,
+  .mx-xs-3,
+  .mr-xs-3{
+    margin-right: 1rem; /* 16 пікселів*/
+  }
+
+  .m-xs-3,
+  .my-xs-3,
+  .mb-xs-3{
+    margin-bottom:  1rem; /*  16 пікселів*/
+  }
+
+  .m-xs-3,
+  .mx-xs-3,
+  .ml-xs-3{
+    margin-left: 1rem; /*  16 пікселів*/
+  }
+
+
+
+
+  .m-xs-4,
+  .my-xs-4,
+  .mt-xs-4{
+    margin-top: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-xs-4,
+  .mx-xs-4,
+  .mr-xs-4{
+    margin-right: 1.5rem; /* 24 пікселів*/
+  }
+
+  .m-xs-4,
+  .my-xs-4,
+  .mb-xs-4{
+    margin-bottom: 1.5rem; /*  24 пікселів*/
+  }
+
+  .m-xs-4,
+  .mx-xs-4,
+  .ml-xs-4{
+    margin-left: 1.5rem; /*  24 пікселів*/
+  }
+
+
+
+
+  .m-xs-5,
+  .my-xs-5,
+  .mt-xs-5{
+    margin-top: 3rem; /*  48 пікселів*/
+  }
+
+  .m-xs-5,
+  .mx-xs-5,
+  .mr-xs-5{
+    margin-right: 3rem; /* 48 пікселів*/
+  }
+
+  .m-xs-5,
+  .my-xs-5,
+  .mb-xs-5{
+    margin-bottom: 3rem; /*  48 пікселів*/
+  }
+
+  .m-xs-5,
+  .mx-xs-5,
+  .ml-xs-5{
+    margin-left: 3rem; /*  48 пікселів*/
+  }
+
+  /* #Margins xs*/
+
+
+  .font-weight-xs-100{
+    font-weight: 100
+  }
+
+  .font-weight-xs-200{
+    font-weight: 200
+  }
+
+  .font-weight-xs-300{
+    font-weight: 300
+  }
+
+  .font-weight-xs-400{
+    font-weight: 400
+  }
+
+  .font-weight-xs-500{
+    font-weight: 500
+  }
+
+  .font-weight-xs-600{
+    font-weight: 600
+  }
+
+  .font-weight-xs-700{
+    font-weight: 700
+  }
+
+  .font-weight-xs-800{
+    font-weight: 800
+  }
+
+  .font-weight-xs-900{
+    font-weight: 900
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .col-xs-1{
+    width: 8.33333%;
+  }
+
+  .col-xs-2{
+    width: 16.666667%;
+  }
+
+  .col-xs-3{
+    width: 25%;
+  }
+
+  .col-xs-4{
+    width: 33.33333%;
+  }
+
+  .col-xs-5{
+    width: 41.66667%;
+  }
+
+  .col-xs-6{
+    width: 50%;
+  }
+
+  .col-xs-7{
+    width: 58.33333%;
+  }
+
+  .col-xs-8{
+    width: 66.66667%;
+  }
+
+  .col-xs-9{
+    width: 75%;
+  }
+
+  .col-xs-10{
+    width: 83.33333%;
+  }
+
+  .col-xs-11{
+    width: 91.66667%;
+  }
+
+  .col-xs-12{
+    width: 100%;
+  }
+
+}
+/* #Grid */
+
+
+
+
+
+
+
+
+
+
+
+
+
